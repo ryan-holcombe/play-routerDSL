@@ -2,6 +2,10 @@ name := "play-routerDSL"
 
 scalaVersion := "2.9.1"
 
+name := "routerdsl-plugin"
+
+version := "1.0-SNAPSHOT"
+
 resolvers ++= Seq(
     DefaultMavenRepository,
     Resolver.url("Play", url("http://download.playframework.org/ivy-releases/"))(Resolver.ivyStylePatterns),

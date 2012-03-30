@@ -11,5 +11,5 @@ class RouterDslPlugin(app: Application) extends Plugin {
 
     }
 
-    override def enabled = true
+    override def enabled = app.configuration.getString("routerdsl-plugin").filter(_ == "disabled").isEmpty
 }

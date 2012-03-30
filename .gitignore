@@ -1,0 +1,45 @@
+syntax:glob
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings
+.eclipse/*
+.gradle
+
+# Ignore emacs temporary files
+\#*
+.\#*
+
+# vi temp files
+*~
+*.swp
+
+# Ignore intellij files
+.idea
+*.iml
+*.ipr
+*.iws
+*.ids
+
+# Generated files/directories
+target
+build
+*.class
+junit*.properties
+
+# Ignore files
+.hgignore
+.gitignore
+.svnignore
+*.orig
+
+# Ignore netbeans
+nb-*
+
+# Apple directory artifacts
+.DS_Store
+
+sandbox/Hammer/Hammer.jar
+
+.metadata
