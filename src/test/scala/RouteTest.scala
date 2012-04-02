@@ -1,11 +1,10 @@
 import org.junit.Test
-import play.plugin.routerdsl.Route
-import Route._
 
-class RouteTesRt {
+
+class RouteTest {
 
     @Test
     def testDsl() {
-        GET -> "/index/<id>"
+
     }
 }

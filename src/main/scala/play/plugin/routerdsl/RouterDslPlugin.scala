@@ -4,7 +4,7 @@ import play.api._
 
 class RouterDslPlugin(app: Application) extends Plugin {
     override def onStart() {
-
+        app.routes
     }
 
     override def onStop() {
